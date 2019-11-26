@@ -1,0 +1,17 @@
+Package: AFidR
+Type: Package
+Title: A method to identify and exclude autofluorescent signals from multi-channel images post acquisition
+Version: 0.0.1
+Authors@R: c(
+    person(given = "Nicolas", family = "Canete", email = "ncan4475@uni.sydney.edu.au", role = c("aut", "cre")),
+    person(given = "Heeva", family = "Baharlou", email = "heeva.baharlou@sydney.edu.au", role = c("aut")),
+    person(given = "Ellis", family = "Patrick", email = "ellis.patrick@sydney.edu.au", role = c("aut"))
+    )
+Maintainer: Nicolas Canete <ncan4475@uni.sydney.edu.au>
+Description: Autofluorescence is a long-standing problem that has hindered fluorescence microscopy image analysis. To address this, we have developed a method that identifies and can exclude autofluorescent signals from multi-channel images post acquisition. 
+License: Unpublished, do not distribute.
+Encoding: UTF-8
+LazyData: false
+biocViews: 
+Depends: moments, EBImage
+RoxygenNote: 6.1.1
